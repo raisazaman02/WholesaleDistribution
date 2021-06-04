@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="sample.orderList">
+  <grid id="27dc6" binding="rootpanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="c1294">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <scrollpane id="85790" binding="scrollItemName">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="58429" class="javax.swing.JList" binding="ItemName">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="Customer1, ID:123456, Items: test1|test2|test3, Need by: 01/01/2021, Order Date: 01/01/2021, Quantity: 10, Price: $1"/>
+                <item value="Customer2, ID:123457, Items: test2|test3|test1, Need by: 01/02/2021, Order Date: 01/02/2021, Quantity: 11, Price: $2"/>
+                <item value="Customer3, ID:123458, Items: test3|test1|test2, Need by: 01/03/2021, Order Date: 01/03/2021, Quantity: 12, Price: $3"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

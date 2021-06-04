@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="sample.profilePage">
+  <grid id="27dc6" binding="rootpanel" layout-manager="GridLayoutManager" row-count="8" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1031"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ceea9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Customer Profile Sign up"/>
+        </properties>
+      </component>
+      <vspacer id="98f1">
+        <constraints>
+          <grid row="6" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="8e0eb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Full Name"/>
+        </properties>
+      </component>
+      <component id="34a94" class="javax.swing.JTextField" binding="fullName">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6cc55" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Street Address"/>
+        </properties>
+      </component>
+      <component id="6c43f" class="javax.swing.JTextField" binding="streetAddress">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7c0b7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="City"/>
+        </properties>
+      </component>
+      <component id="651b3" class="javax.swing.JTextField" binding="city">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c4f85" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="State"/>
+        </properties>
+      </component>
+      <component id="30dcd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Phone"/>
+        </properties>
+      </component>
+      <component id="a912e" class="javax.swing.JTextField" binding="phone">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="27ed7" class="javax.swing.JButton" binding="createProfile">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Create Profile"/>
+        </properties>
+      </component>
+      <component id="349a9" class="javax.swing.JButton" binding="searchCustomerProfileButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Search Customer Profile"/>
+        </properties>
+      </component>
+      <component id="ebcec" class="javax.swing.JButton" binding="deleteProfileButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete Profile"/>
+        </properties>
+      </component>
+      <component id="66295" class="javax.swing.JButton" binding="listOfCustomersButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="List of Customers"/>
+        </properties>
+      </component>
+      <component id="ab43" class="javax.swing.JButton" binding="updateProfileButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Update Profile"/>
+        </properties>
+      </component>
+      <component id="7e936" class="javax.swing.JComboBox" binding="state">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="AL"/>
+            <item value="AK"/>
+            <item value="AZ"/>
+            <item value="AR"/>
+            <item value="CA"/>
+            <item value="CO"/>
+            <item value="CT"/>
+            <item value="DE"/>
+            <item value="FL"/>
+            <item value="GA"/>
+            <item value="HI"/>
+            <item value="ID"/>
+            <item value="IL"/>
+            <item value="IN"/>
+            <item value="IA"/>
+            <item value="KS"/>
+            <item value="KY"/>
+            <item value="LA"/>
+            <item value="ME"/>
+            <item value="MD"/>
+            <item value="MA"/>
+            <item value="MI"/>
+            <item value="MN"/>
+            <item value="MS"/>
+            <item value="MO"/>
+            <item value="MT"/>
+            <item value="NE"/>
+            <item value="NV"/>
+            <item value="NH"/>
+            <item value="NJ"/>
+            <item value="NM"/>
+            <item value="NY"/>
+            <item value="NC"/>
+            <item value="ND"/>
+            <item value="OH"/>
+            <item value="OK"/>
+            <item value="OR"/>
+            <item value="PA"/>
+            <item value="RI"/>
+            <item value="SC"/>
+            <item value="SD"/>
+            <item value="TN"/>
+            <item value="TX"/>
+            <item value="UT"/>
+            <item value="VT"/>
+            <item value="VA"/>
+            <item value="WA"/>
+            <item value="WV"/>
+            <item value="WI"/>
+            <item value="WY"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
